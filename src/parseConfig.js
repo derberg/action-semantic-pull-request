@@ -27,7 +27,7 @@ module.exports = function parseConfig() {
       process.env.INPUT_SUBJECTPATTERNERROR
     );
   }
-console.log('subjectPatternError', subjectPatternError)
+  console.log('subjectPatternError', subjectPatternError)
   let wip;
   if (process.env.INPUT_WIP) {
     wip = ConfigParser.parseBoolean(process.env.INPUT_WIP);
